@@ -2,7 +2,7 @@ package com.go2it.edu;
 
 import java.io.IOException;
 
-public class TaskC {
+public class Task7_1_c {
     public static void main(String[] args) throws IOException {
         int i = 2;
         try {

@@ -1,6 +1,6 @@
 package com.go2it.edu;
 
-public class TaskB {
+public class Task7_1_b {
     public static void main(String[] args) {
         String str = "GoGoJava";
         try{

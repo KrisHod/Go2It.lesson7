@@ -1,6 +1,6 @@
 package com.go2it.edu;
 
-public class TaskA {
+public class Task7_1_a {
     public static void main(String[] args) {
         try {
             String a = args[99];

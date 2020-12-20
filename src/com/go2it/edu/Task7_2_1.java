@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class TaskE {
+public class Task7_2_1 {
     public static void readInfo() {
         FileInputStream fis = null;
         try {

@@ -8,6 +8,8 @@ package com.go2it.edu;
   либо undefined в случае ничьей.*/
 
 
+import java.util.Locale;
+
 public class AdditionalTask {
     public static int getWinner(String[] res) {
         if (getTotalResForTeam1(res) < getTotalResForTeam2(res)) {
@@ -47,6 +49,13 @@ public class AdditionalTask {
         System.out.println(getWinner(resOfMatch1));
         System.out.println(getWinner(resOfMatch2));
         System.out.println(getWinner(resOfMatch3));
+
+        try {
+            System.out.println(resOfMatch1[5].toLowerCase(Locale.ROOT));
+        }
+        catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("Exception was caught " + e.getMessage());
+        }
     }
 }
 
