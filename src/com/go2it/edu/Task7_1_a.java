@@ -6,8 +6,7 @@ public class Task7_1_a {
             String a = args[99];
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("This element doesn't exist");
-        }
-        finally {
+        } finally {
             System.out.println("Merry Christmas");
         }
 

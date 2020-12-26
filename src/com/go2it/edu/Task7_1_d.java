@@ -11,8 +11,7 @@ public class Task7_1_d {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
             e.getMessage();
-        }
-        finally {
+        } finally {
             System.out.println("Keep calm");
         }
     }

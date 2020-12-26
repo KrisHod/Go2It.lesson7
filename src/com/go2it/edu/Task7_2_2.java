@@ -7,16 +7,9 @@ public class Task7_2_2 {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a password of at least 8 and no more than 12 characters");
         String password = input.next();
-        if (password.length() < 8) {
+        if (password.length() < 8 && password.length() > 12) {
             try {
-                throw new IllegalArgumentException("The length of password is too small");
-            } catch (IllegalArgumentException e) {
-                System.out.println(e.getMessage());
-                creatPassword();
-            }
-        } else if (password.length() > 12) {
-            try {
-                throw new IllegalArgumentException("The length of password is too big");
+                throw new IllegalArgumentException("Incorrect length of password");
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
                 creatPassword();

@@ -8,9 +8,10 @@ public class AdditionalTaskTest {
     public void testGetTotalResForTeam1() {
         Assertions.assertEquals(112, AdditionalTask.getTotalResForTeam1(new String[]{"23-26", "24-30", "30-27", "35-31"}));
     }
+
     @Test
-    public void testGetWinner (){
-        Assertions.assertEquals(2,AdditionalTask.getWinner(new String[]{"23-26", "24-30", "30-27", "35-31"}));
+    public void testGetWinner() {
+        Assertions.assertEquals(2, AdditionalTask.getWinner(new String[]{"23-26", "24-30", "30-27", "35-31"}));
     }
 }
 

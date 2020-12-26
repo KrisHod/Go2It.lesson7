@@ -52,9 +52,9 @@ public class AdditionalTask {
 
         try {
             System.out.println(resOfMatch1[5].toLowerCase(Locale.ROOT));
-        }
-        catch (ArrayIndexOutOfBoundsException e){
+        } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Exception was caught " + e.getMessage());
+            e.printStackTrace();
         }
     }
 }
